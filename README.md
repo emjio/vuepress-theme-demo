@@ -1,4 +1,4 @@
-# vuepress-theme-emjio-cli 
+# vuepress-theme-demo
 
 基于vuepress的带主题的脚手架
 
