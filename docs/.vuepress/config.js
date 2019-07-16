@@ -12,8 +12,13 @@ module.exports = {
   themeConfig: {
     huawei: '华为，就是可以为所欲为！',
     // 华为文案,不需要写false
-    themelink:false,
+    themelink:true,
     // 是否在底部保留一个主题的链接
+    flink:[
+      { text: '百度', link: 'tel:18551039859', icon: 'em-home' },
+      { text: '百度', link: 'tel:18551039859', icon: 'em-home' },
+
+    ],
     nav: [
       { text: 'Home', link: '/', icon: 'em-home' },
       { text: 'TimeLine', link: '/timeLine/', icon: 'em-date' },
@@ -28,6 +33,11 @@ module.exports = {
         ]
       } 
     ],
+    // 主题色配置
+    themeColor:{
+      blue: '#2196f3',
+      yellow:'#2196f3'
+    },
     // 博客设置
     blogConfig: {
       category: {
