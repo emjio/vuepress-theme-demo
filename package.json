@@ -1,8 +1,9 @@
 {
-  "name": "my-blog",
+  "name": "{{name}}",
   "version": "1.0.0",
   "repository": "",
-  "author": "emjio",
+  "author": "{{author}}",
+  "description": "{{description}}",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
